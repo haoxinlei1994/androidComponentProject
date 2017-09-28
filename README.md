@@ -8,4 +8,7 @@ main、news、image：业务组件，全部依赖common组件，完成业务操�
 
 common：功能组件，引入公用的jar，创建一些公共类，以及请求权限。
 
+最关键的点在于：工程中所有的build.gradle都可以直接读取gradle.propertirs文件中的字段，
+通过在gradle.propertirs文件中动态设置isModule的值，在各个组建中判断此值来切换组件的环境
+
 ![image](https://raw.githubusercontent.com/haoxinlei1994/androidComponentProject/master/ACom/%E6%88%AA%E5%B1%8F/a.gif)
