@@ -1,0 +1,1 @@
+include ':app', ':main', ':common', ':image', ':news'
